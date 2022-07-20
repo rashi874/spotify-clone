@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
+
+body a:hover {
+
+    color: #1ed760;
+
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 78px;
+    display: flex;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo-img {
+    padding: 17px;
+    padding-left: 190px;
+    height: 40px;
+    float: center;
+}
+
+.ul {
+    list-style-type: none;
+    padding-left: 220px;
+    padding-top: 10px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.ul-r {
+    list-style-type: none;
+    padding-left: 220px;
+    padding-top: 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.li a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.li :hover {
+    color: #1ed760;
+}
+
+.Banner {
+    background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bubble {
+    height: 175%;
+    width: 100%;
+    margin-top: -110px;
+    position: absolute;
+}
+
+.screenshot {
+    height: 79%;
+    width: 19.5%;
+    padding-left: 300px;
+    padding-top: 150px;
+    position: absolute;
+
+}
+
+.mobile {
+    height: 120%;
+    width: 22.5%;
+    padding-left: 280px;
+    padding-top: 70px;
+    position: absolute;
+
+}
+
+.banner-text {
+    font-size: 60px;
+    float: right;
+    font-weight: 700;
+    position: relative;
+    padding-top: 150px;
+    padding-right: 200px;
+}
+
+.banner-button {
+    margin-top: 330px;
+    margin-right: -180px;
+    height: 46px;
+    width: 180px;
+    font-size: 13px;
+    float: right;
+    font-weight: bold;
+    position: relative;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.banner-button :hover {
+    background-color: rgb(201, 94, 94);
+
+}
+
+.section {
+
+    height: 300px;
+
+}
+
+.heading {
+    padding-top: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.why-spoty-div {
+    height: 420px;
+}
+
+.why-spoty {
+    color: black;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.tr-r {
+
+    /* margin-top: 0px; */
+    font-size: 18px;
+    padding-right: 100px;
+}
+
+.th-r {
+    margin-bottom: 20px;
+    /* background: black; */
+    padding: 30px;
+
+}
+
+.tr-r td {
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.tb-img {
+    height: 140px;
+}
+
+.its-free-div {
+    height: 500px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.its-free-div-text {
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.questions-div {
+    height: 557px;
+    background: white;
+    color: black;
+
+}
+
+.questions-div-h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.q-li {
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 70px;
+    /* margin-top: 30px; */
+
+}
+
+.q-li li {
+    /* background:green; */
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 120px;
+    /* border: 20px; */
+}
+
+.q-li hr {
+    background: rgba(183, 183, 183, 0.558);
+    border: none;
+    width: 92%;
+    height: 1px;
+    margin-right: 0px;
+
+}
+
+.ready {
+    background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+
+.ready-text {
+    text-align: center;
+    font-size: 65px;
+    /* float: right; */
+    font-weight: bold;
+    position: relative;
+    padding-top: 130px;
+    /* padding-right: 200px; */
+}
+
+.bubbles {
+    height: 220%;
+    width: 100%;
+    margin-top: -470px;
+    position: absolute;
+}
+
+.banner2-button {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 660px;
+    height: 45px;
+    width: 155px;
+    font-size: 13px;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 450px;
+    background: black;
+}
+
+.footer-table {
+    text-align: center;
+}
+
+.logo-foot {
+    margin-left: 9px;
+    padding-top: 90px;
+    height: 200px;
+    width: 20%;
+    float: left;
+    /* background: rgb(0, 234, 0); */
+}
+
+.logo-foot-img {
+    float: right;
+    height: 40px;
+    /* background: green; */
+}
+
+.table-footer {
+    width: 70%;
+    float: right;
+    padding: 30px;
+    /* background: rgb(14, 66, 197); */
+
+}
+
+.table-footer-cel {
+    text-align: start;
+    width: 59%;
+    float: left;
+
+    padding-top: 100px;
+    margin-left: -50px;
+    /* margin-top: 60px; */
+    /* background: rgb(123, 4, 20); */
+
+}
+
+.table-footer-th {
+
+    text-align: start;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+
+table.table-footer-cel td {
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.social-main {
+    width: 23%;
+    float: right;
+    padding: 100px;
+
+}
+
+.social {
+    height: 65px;
+}
+
+.second-foot {
+    height: 40px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+
+.foot-left {
+    width: 50;
+    margin-left: 158px;
+    color: rgb(136, 136, 136);
+    float: left;
+
+}
+
+.foot-left a {
+    color: rgb(136, 136, 136);
+    font-size: 11px;
+    text-decoration: none;
+    padding-right: 25px;
+    font-weight: 200;
+}
+
+.foot-right {
+    width: 17%;
+    float: right;
+    margin-top: -23px;
+    text-decoration: none;
+
+
+}
+
+.foot-right a {
+    font-size: 11px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+.foot-right p {
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
